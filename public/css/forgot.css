@@ -1,0 +1,60 @@
+.f-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    padding: 0 2rem;
+    width: 340px;
+    background: rgba(234, 234, 234, 0.738);
+    box-shadow: 7px 6px 16px rgba(0, 0, 0, 0.379);
+    border-radius: 8px;
+}
+
+.heading2{
+    font-family: 'karla';
+    font-size: 3rem;
+    color: rgba(56, 56, 56, 0.997);
+}
+.p3{
+    font-family: 'karla';
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+}
+input{
+    padding: 8px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 18px;
+}
+label{
+    font-size: 18px;
+    font-family: 'karla';
+    color: black;
+    font-weight: bold;
+
+}
+.buttton{
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-family: 'karla';
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+.buttton:hover{
+  cursor: pointer;
+  background-color: rgb(248, 247, 247);
+  color: black;
+  transition: 0.3s;
+}

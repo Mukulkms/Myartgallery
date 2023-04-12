@@ -1,0 +1,41 @@
+footer{
+    height: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+.message{
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    font-family: 'gugi';
+    line-height: 5rem;
+    color: rgb(255, 255, 255);
+}
+.links{
+   text-align: center;
+   line-height: 2rem;
+}
+
+.social{
+    padding: 5px 12px;
+    color: white;
+}
+.copyright{
+    color: white;
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media(max-width:500px){
+    footer{
+        width: 100%;
+        padding: 0;
+    }
+    .message{
+    font-size: 6vw;
+    }
+}

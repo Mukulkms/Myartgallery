@@ -1,0 +1,75 @@
+
+.logincont2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin: 3rem 0;
+    
+}
+.cont2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:350px;
+    height: 500px;
+    gap: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 7px 6px 16px rgba(0, 0, 0, 0.25);
+    background: rgba(234, 234, 234, 0.741);
+    padding: 0 2rem;
+    
+}
+
+input{
+    height: 2.5rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    border-style: none;
+    width: 100%;
+}
+label{
+    font-size: 1.2rem;
+    font-family: 'karla';
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.btn-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+background: #050505;
+color: white;
+padding: 8px;
+width: 100%;
+font-size: 1.2rem;
+border-radius: 10px;
+border-style: none;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+
+
+/* media qureies */
+
+@media(max-width:380px){
+    .logincont{
+        height: 450px;
+       
+    }
+.cont{
+    width: 280px;
+    z-index: -1;
+    
+
+}
+.btn{
+    font-size: 1rem;
+}
+}
